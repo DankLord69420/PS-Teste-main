@@ -1,0 +1,157 @@
+.main-oportunidades {
+    background: url('../../assets/bg-login.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-oportunidades {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.table {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.investimentos-header,
+.negocios-header,
+.parcerias-header,
+.projetos-header {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.investimentos-data,
+.negocios-data,
+.parcerias-data,
+.projetos-data  {
+    text-align: center;
+    max-width: 1000px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+}
+
+.op-nav-link.active {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.op-nav-link:not(.active) {
+    background-color: rgba(255, 255, 255, .75);
+    color: black;
+}
+
+/*UPDATE FORMS*/
+    
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.textarea-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.textarea-container label {
+    margin-right: 10px;
+}
+
+.textarea-container textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 220px;
+}
+
+.btn {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+.cancel-btn {
+    margin-left: 10px;
+}
+
+.select-container {
+    position: relative;
+}
+
+.select-container::after {
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 14px;
+    color: #777;
+}
+
+.select-container select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

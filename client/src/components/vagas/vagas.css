@@ -1,0 +1,48 @@
+.main-vagas {
+  background: url('../../assets/bg-login.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.container-vagas {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 20px;
+}
+
+.wrapper-vagas {
+  max-width: 100%;
+  margin: auto;
+}
+
+.table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+.row-vaga:hover {
+  cursor: pointer;
+}
+
+.add-btn {
+  margin-left: 10px;
+}
+
+.row-vaga {
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.th-vaga:not(:first-child) {
+  text-align: center;
+}
+
+.th-vaga {
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.main-calendario {
+    background: url('../../assets/bg-login.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-calendario {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+.calendario-bg {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 1000px;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-success .bi {
+    margin-right: 5px;
+}
+
+.delete-event {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+@media (max-width: 576px) {
+    .container-calendario {
+        padding: 0 10px;
+    }
+}
